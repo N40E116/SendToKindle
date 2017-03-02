@@ -43,7 +43,7 @@ public class ListFiles extends JFrame {
     JTextArea fileListArea = new JTextArea(24, 40);
     JLabel fileListLabel = new JLabel("文件结构");    
     //按钮
-    JButton startButton = new JButton("开始");
+    JButton startButton = new JButton("列出文件结构");
     JButton cancelButton = new JButton("取消");    
     
     public void launchFrame() throws Exception{        
@@ -103,7 +103,7 @@ public class ListFiles extends JFrame {
 					}                
 	                filelist.clear();
                 }else{
-                	fileListArea.append("文件夹为空");	
+                	fileListArea.append("该文件夹为空");	
                 }
                 
             }
